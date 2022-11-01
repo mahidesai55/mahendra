@@ -1,0 +1,75 @@
+*{
+
+    margin:0;
+    padding: 0  ;
+    box-sizing: border-box;
+    }
+    .box{
+        display: flex;
+        margin:30px 0;
+       
+        
+        
+        
+    }
+    .box1 .img{
+        width:100%;
+        height: 250px;
+    }
+    
+    .img img{
+        width:100%;
+        height: 100%; 
+        border-radius: 10px;
+        
+    }
+    .box1{
+        margin:30px;
+         
+        
+    
+    }
+    .box1 .mahi{
+        border:1px solid black;
+        border-top:none;
+        padding: 20px;
+        border-radius: 5px;  
+        
+    }
+    .box p,h1{
+        padding:10px;
+    }
+    a{
+        text-align: inline-block;
+        border: 1px solid black;
+        color:white;
+        background-color: black;
+        border-radius: 5PX;
+        
+    }
+    .picture{
+        border:10px solid black;
+        background: url(images/underwater1.jpg);
+        text-align: center;
+        margin:30px 0;
+    }
+    
+    .picture1 img{
+        width:400px;
+        height: 600px; 
+        border-radius: 10px;
+    }
+    .picture1{
+        display: flex;
+        align-items: center;
+        font-size:20px;
+         
+        
+    }
+    .aman{
+        margin:30px 10%;
+        border:1px solid black;
+        padding: 20px 40px;
+        border-radius: 10px;
+    }
+    
