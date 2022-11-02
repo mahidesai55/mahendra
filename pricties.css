@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.knowlage{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.knowlage1{
+    margin:50px;
+}
+
+.know2{
+    margin:20px 0 0 0;
+}
+.know2 {
+    display: flex; 
+}
+.know2 img{
+    width:20px;
+    height: 30px;
+}
+form input{ 
+    margin-top: 20px;
+    width:100%;
+    height: 45px;
+ 
+}
+form a{
+    text-decoration: none;
+
+}
+
+
+.know3 {
+    text-align: center;
+}
+.know3 a{
+    justify-content: space-between;
+    text-decoration: none;
+    border: 1px solid gray;
+    border-radius: 50%;
+    color:black;
+    text-align: inline-block;
+    margin:15px;
+    padding:15px; 
+}
+.know3 p{
+    margin:30px;
+
+}
+.submit{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.submit input{
+    border-radius: 5px ;
+    color:white;
+    background-color: black;
+    width:30%;
+    
+}
+.knowlage2{
+    background: url(images/backpic.jpg) no-repeat fixed center / cover;
+    text-align: center;
+    width:60%; 
+    color:white; 
+}
+.knowlage2 img{
+    width:500px;
+    height: 500px;
+    margin-bottom: 60px;
+}
+.knowlage2{
+    padding-top: 100px;
+    
+}
+button{
+    padding: 15px 20px;
+    color: white;
+    background-color: black;
+}
+button i{
+    color: green;
+    margin-left: 10px;
+}
