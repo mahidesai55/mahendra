@@ -67,6 +67,7 @@ form a{
     background: url(images/backpic.jpg) no-repeat fixed center / cover;
     text-align: center;
     width:60%; 
+    height: 100vh;
     color:white; 
 }
 .knowlage2 img{
@@ -83,6 +84,7 @@ button{
     color: white;
     background-color: black;
     border-radius: 10px;
+    
 }
 button i{
     color: green;
