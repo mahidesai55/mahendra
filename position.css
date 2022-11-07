@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    color:white;
+    height:70px;
+    align-items: center;
+    text-transform: capitalize;
+    
+}
+.down ol{
+    display:flex;
+    text-transform:uppercase;
+    list-style: none;    
+
+}
+.down ol li{
+    position: relative;
+} 
+.down a{
+    text-decoration: none;
+    color:#fff;
+    padding: 10px 15px;
+    display: inline-block; 
+     
+}
+ .down ol li ul{
+    position: absolute;
+    background-color: #f00;
+    list-style: none;
+    top: 38px;
+    width: 180px; 
+    display: none; 
+}
+.down ol li:hover ul{
+    display: block;
+} 
+.game{
+    right: 100px;
+}
+
