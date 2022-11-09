@@ -7,21 +7,14 @@
     width:300px;
     height: 300px;
     border-radius: 50%;
-
-    
 }
-
-    
 .father{
-    
     height: 100vh;
     display: flex;
-    justify-content:space-between;
-     padding:200px;
+    justify-content:center;
+    align-items: center;
     /* margin: auto; */
     }
-    
-
      img{
     width:100px;
     height: 100px;

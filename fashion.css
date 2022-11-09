@@ -11,6 +11,7 @@
 .fashion img{
     width:300px;
     height: 400px;
+    padding: 10px;
 }
 ul{
     display: flex;
@@ -21,14 +22,14 @@ li{
     border:1px solid black;
     padding:5px;
 } 
-  .h3,p,ul{
+.ram h3,p,ul{
     text-align: center;
     padding: 10px 0px;
   }  
 a{
     display:inline-block;
-    padding:10px ;
-    margin:0px 90px;
+    padding: 10px;
+    margin:10px 90px;
     text-align: center;
     border:1px solid #fff;
     background-color: green;
