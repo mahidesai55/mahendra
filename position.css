@@ -35,12 +35,37 @@
     list-style: none;
     top: 38px;
     width: 180px; 
-    display: none; 
+    display: none;
+    
+    
 }
-.down ol li:hover ul{
+.down ol li:hover > ul{
     display: block;
 } 
-.game{
-    right: 100px;
+
+.code li ul{
+    position: relative;
 }
+.code a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    display: inline-block;
+}
+.code li ul{
+    position: absolute;
+    background-color: #f00;
+    list-style: none;
+    top: 38px;
+    width: 180px; 
+    display: none;
+    right: 100%;
+}
+.code li:hover ul{
+    display: block;
+}
+.code ul:hover .li{
+          background-color: black;
+}
+
 
