@@ -33,7 +33,7 @@
     position: absolute;
     background-color: #f00;
     list-style: none;
-    top: 38px;
+    top: 40px;
     width: 180px; 
     display: none;
     
@@ -41,10 +41,6 @@
 }
 .down ol li:hover > ul{
     display: block;
-} 
-
-.code li ul{
-    position: relative;
 }
 .code a{
     text-decoration: none;
@@ -56,16 +52,19 @@
     position: absolute;
     background-color: #f00;
     list-style: none;
-    top: 38px;
-    width: 180px; 
+    top: 36px;
+    width: 200px; 
     display: none;
     right: 100%;
 }
-.code li:hover ul{
+.code li:hover > ul{
     display: block;
 }
-.code ul:hover .li{
-          background-color: black;
+.dropdown ol ul li:hover {
+    background-color: black;
 }
 
+.down ol li ul.level2{
+    top: 0;
+}
 
