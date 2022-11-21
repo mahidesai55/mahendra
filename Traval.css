@@ -110,6 +110,9 @@
     
     
 }
+.taj1{
+    padding: 40px 0;
+}
 .taj1 img{
      height: 254px;
     width:400px; 
@@ -154,7 +157,7 @@
     background-color: black;
     border-radius: 10px;
     padding: 20px;
-    margin: 30px 703px;
+    margin: 2rem 43rem;
     
 }
 .load a:hover{
@@ -234,9 +237,24 @@
     text-transform: capitalize;
 }
 .created span{
-    color:purple;
+    color:rgb(192, 41, 18);
 }
 i{
     color: blueviolet;
     
+}
+.quick1 i{
+    padding: 5px 10px;
+}
+.quick1 h3{
+    margin: 0 10px ;
+}
+.quick2 i{
+    padding: 5px 10px;
+}
+.quick2 h3{
+    margin: 0px 10px;
+}
+.quick2{
+    margin: 10px 0;
 }
