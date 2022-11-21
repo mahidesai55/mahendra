@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.travel1{
+    display: flex;
+    justify-content:space-between;
+    border: 1px solid black;
+    height: 70px;
+    align-items: center;
+    padding-left: 80px;
+    background-color: rgb(219,219,219);
+    position: fixed;
+    width:100%;
+} 
+.part1{
+    background: url(images/home-slide-1.jpg) no-repeat center ;
+    height: 500px; 
+    text-align: center;
+    padding-top: 200px;
+}
+.part1 a{
+    text-decoration: none;
+    display: inline-block;
+    color: aliceblue;
+    background-color: black;
+    padding: 10px;
+}
+.part1 h1{
+    font-size: 50px;
+    padding: 10px;
+    color: white;
+}
+.part1 h2{
+    color: white;
+}
+.part1 a:hover{
+    color: blueviolet;
+}
+.Manu ul{
+    display: flex;
+    
+}
+.Manu ul li{
+    padding: 20px;
+    list-style: none;
+}
+.part2{
+    text-align: center;
+    padding: 50px 0;
+}
+.part3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jeetu{
+    width: 450px;
+    height: 250px;
+    background-color: rgb(175, 173, 173);
+    padding: 30px;
+}
+.jeetu a{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+}
+.jeetu a:hover{
+    background-color: rgb(27, 20, 232);
+}
+.part4{
+    text-align: center;
+    padding: 20px;
+}
+.icons{
+    
+    display: flex;
+    justify-content: center;
+}
+.icon1{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    margin: 0 10px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+.icon1 i{
+    font-size: 100px;
+    padding-top:40px ;
+    color: white;
+}
+.icon1:hover{
+    background-color: black;
+}
+.mahi{
+    margin:10px 210px;
+}
+.taj{
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgb(199, 191, 191)   ;
+  
+    
+    
+}
+.taj1 img{
+     height: 254px;
+    width:400px; 
+}
+.img{
+    height: 250px;
+}
+
+.taj1 .adventure{
+    border:1px solid black;
+    padding:30px;
+    text-align: center;
+    width:400px;
+    border-top:none;
+    background-color:white;
+}
+.adventure p{
+    margin:20px 0;
+   
+}
+.adventure a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:bisque;
+    background-color: black;
+    padding:10px;
+    border-radius: 5px;
+}
+.adventure a:hover{
+    background-color: rgb(226, 43, 43);
+
+}
+.load{
+    background-color: rgb(201, 190, 190);
+}
+.load a{
+    display: inline-block;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color:beige;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px 703px;
+    
+}
+.load a:hover{
+    background-color: rgb(226, 144, 43);
+}
+.part6{
+    background-image: url(images/header-bg-2.png);
+    text-align: center;
+    padding:100px 0;
+}
+.part6 p{
+    margin:20px;
+    color: white;
+}
+.part6 h2{
+    color: white;
+}
+.part6 a{
+    background-color: black;
+    color:bisque;
+    padding:10px;
+    border-radius: 10px;
+    margin:40px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.part6 a:hover{
+    background-color: rgb(55, 43, 226);
+}
+.quick{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    /* padding:0 100px; */
+    
+}
+.footers{
+    background-image: url(images/footer-bg.jpg);
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.quick1{
+    color:beige;
+    
+}
+.quick1 li{
+    list-style: none;
+}
+.quick1 a{
+    color:rgb(245, 143, 17);
+    
+}
+.footerss{
+    font-size: 25px;
+    padding:0 140px;
+}
+
+
+
+.quick2{
+    color:beige;
+    
+}
+.quick2 li{
+    list-style: none;
+}
+.quick2 a{
+    color:rgb(28, 16, 201);
+    
+    
+}
+.created{
+    text-align: center;
+    color:rgb(249, 158, 10);
+    padding:20px 0;
+    text-transform: capitalize;
+}
+.created span{
+    color:purple;
+}
+i{
+    color: blueviolet;
+    
+}
