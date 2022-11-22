@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.whatsapp1{
+    background-color: #28bd98;
+    text-align: center;
+}
+.icon1{
+    padding: 0 0 0 85rem;
+    
+}
+.icon1{
+    font-size: 50px;
+}
+.icon2{
+    font-size: 100px;
+}
+.hp h3{
+    font-size: 50px;
+    padding: 10px;
+}
+.hp p{
+    font-size: 28px;
+    padding:0 0px 30px 0;
+}
+.googlelogo img{
+    width: 300px;
+    padding-bottom: 20px;
+}
+.business{
+    background-color: rgb(181, 254, 254);
+    text-align: center;
+}
+.business h2{
+    font-size: 60px;
+    padding: 50px;
+}
+.business p{
+    font-size: 28px;
+    padding:0 0 30px 0;
+}
